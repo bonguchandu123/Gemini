@@ -33,7 +33,7 @@ A fully functional **Gemini AI Clone** built using the **MERN Stack** and integr
 ---
 
 ## 📁 Folder Structure
-
+``
 gemini-clone/
 ├── client/                  # React frontend
 │   └── src/
@@ -47,7 +47,9 @@ gemini-clone/
 │   ├── middleware/          # Custom middleware (auth, error handlers)
 │   └── server.js            # Entry point for Express server
 ├── .env                     # Environment variables (e.g., GEMINI_API_KEY)
-└── README.md                # Project documentation
+└── README.md   
+``
+# Project documentation
 
 ```env
 PORT=5000
