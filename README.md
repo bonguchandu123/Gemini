@@ -35,21 +35,19 @@ A fully functional **Gemini AI Clone** built using the **MERN Stack** and integr
 ## 📁 Folder Structure
 
 gemini-clone/
-├── client/ # React frontend
-│ └── src/
-│ ├── components/
-│ ├── pages/
-│ └── App.jsx
-│
-├── server/ # Node.js + Express backend
-│ ├── controllers/
-│ ├── routes/
-│ ├── models/
-│ ├── middleware/
-│ └── server.js
-│
-├── .env
-├── README.md
+├── client/                  # React frontend
+│   └── src/
+│       ├── components/      # Reusable UI components
+│       ├── pages/           # App pages like Home, Chat, etc.
+│       └── App.jsx          # Main React App entry
+├── server/                  # Node.js + Express backend
+│   ├── controllers/         # Gemini controller logic
+│   ├── routes/              # API route definitions
+│   ├── models/              # Mongoose schemas
+│   ├── middleware/          # Custom middleware (auth, error handlers)
+│   └── server.js            # Entry point for Express server
+├── .env                     # Environment variables (e.g., GEMINI_API_KEY)
+└── README.md                # Project documentation
 
 ```env
 PORT=5000
