@@ -63,14 +63,18 @@ VITE_API_BASE_URL=http://localhost:5000
 git clone https://github.com/your-username/gemini-clone.git
 cd gemini-clone
 ## Start the Backend
+```
 cd server
 npm install
 npm run dev
+```
 
 ##  Start the Frontend
+```
 cd client
 npm install
 npm run dev
+```
 
 ## 💡 Gemini API Example (Node.js)
 ```// server/controllers/geminiController.js
