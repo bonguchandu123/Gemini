@@ -73,7 +73,7 @@ npm install
 npm run dev
 
 ## 💡 Gemini API Example (Node.js)
-// server/controllers/geminiController.js
+```// server/controllers/geminiController.js
 import axios from "axios";
 
 export const chatWithGemini = async (req, res) => {
@@ -96,7 +96,7 @@ export const chatWithGemini = async (req, res) => {
   } catch (error) {
     res.status(500).json({ error: "Gemini API Error", message: error.message });
   }
-};
+}; ```
 
 ## 🧡 Built By
 [bonguchandu] — Inspired by Google Gemini & OpenAI ChatGPT
